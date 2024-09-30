@@ -3,13 +3,15 @@
 
 bool all_hex(char*);
 
+using std::cout, std::strlen, std::endl;
+
 int main(int argc, char* argv[]) {
   int valid_colors = 0;
 
   for(int i=1; i < argc; i++) {
-    int length = std::strlen(argv[i]);
+    int length = strlen(argv[i]);
     if( (length == 3 || length == 6) && all_hex(argv[i]) ) {
-      std::cout << "#" << argv[i] << std::endl;
+      cout << "#" << argv[i] << endl;
     }  
   }
   return 0;

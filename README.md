@@ -2,6 +2,8 @@
 
 This is a simple C++ program for managing a collection or palette of RGB colors.
 
+Build Status: [![Build C++](https://github.com/UsuaOSilver/ColorManager/actions/workflows/build.yaml/badge.svg)](https://github.com/UsuaOSilver/ColorManager/actions/workflows/build.yaml)
+
 Invoke the program by running **Manager**, followed by a list of the color values, such as:
 
 ```

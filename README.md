@@ -1,5 +1,8 @@
 # ColorManager
 
+[![Build C++](https://github.com/Sam-r-ai/CppMath/actions/workflows/main.yml/badge.svg)](https://github.com/Sam-r-ai/ColorManager/actions/workflows/main.yml)
+
+
 This is a simple C++ program for managing a collection or palette of RGB colors.
 
 Invoke the program by running **Manager**, followed by a list of the color values, such as:
